@@ -1,0 +1,1027 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "What's up",
+        "Yo!",
+        "Howdy",
+        "Nice to meet you."
+      ],
+      "responses": [
+        "Hey",
+        "Hello, thanks for visiting.",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?",
+        "Hello, there.",
+        "Hello Dear",
+        "Ooooo Hello, looking for someone or something?",
+        "Yes, I am here.",
+        "Listening carefully.",
+        "Ok, I am with you."
+      ]
+    },
+    {
+      "tag": "selamlama",
+      "patterns": [
+        "Merhaba",
+        "Hey",
+        "Nasılsın",
+        "Kimse var mı?",
+        "Kimse yok mu?",
+        "Selam",
+        "İyi günler",
+        "Günaydın",
+        "Naber",
+        "Hop!",
+        "Tanıştığıma memnun oldum"
+      ],
+      "responses": [
+        "Hey",
+        "Selam, ziyaretin icin tesekkurler",
+        "Merhaba, senin icin ne yapabilirim?",
+        "Selam, nasil yardimci olabilirim?",
+        "Merhaba canim",
+        "Ooooo merhaba, birini mi ariyorsun? Ya da bir seyi?",
+        "Evet, buradayim",
+        "Dikkatle dinliyorum",
+        "Tamamdir, sendeyim.",
+        "Hop! Geldim, burdayim"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later.",
+        "Goodbye",
+        "Have a great day.",
+        "See you next time.",
+        "It was my pleassure.",
+        "Take care.",
+        "See ya!",
+        "Catch you later.",
+        "Ciao."
+      ],
+      "responses": [
+        "See you later, thanks for visiting.",
+        "May the force be with you!",
+        "See next time.",
+        "Was my pleassuare to meet you.",
+        "Hope will cath up sortly.",
+        "Have a nice day.",
+        "Bye! Come back again soon.",
+        "So, till next time.",
+        "If you need anything just text me anytime. Bye.",
+        "Well, hope see you soon!"
+      ]
+    },
+    {
+      "tag": "vedalasma",
+      "patterns": [
+        "Görüşürüz",
+        "Sonra görüşürüz",
+        "Güle güle",
+        "Görüşmek üzere",
+        "Tekrar görüşmek üzere",
+        "Bir dahaki sefere görüşürüz.",
+        "Bir dahakine görüşürüz.",
+        "Tekrar görüşürüz.",
+        "Elveda",
+        "Kendine iyi bak",
+        "Hoşçakal",
+        "Bay bay",
+        "Öptüm, bay bay"
+      ],
+      "responses": [
+        "Sonra gorusuruz, ziyaretin icin tesekkurler.",
+        "Guc seninle olsun!",
+        "Bir dahaki sefere gorusuruz.",
+        "Tanistigimiza memnun oldum.",
+        "Seninle konusmak guzeldi!",
+        "Yine beklerim, kendine iyi bak.",
+        "Beni tekrar ziyaret etmeyi unutma lutfen!",
+        "Iyi gunler.",
+        "Benim icin zevkti.",
+        "Gorusuruz! Yakinda tekrar gel.",
+        "Bir dahaki sefere kadar. ",
+        "Bir seye ihtiyacin olursa, istedigin zaman mesaj atabilirsin. Hoscakal.",
+        "Umarim yakinda gorusuruz!",
+        "Yine goruselim."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!",
+        "Tnx",
+        "Wow",
+        "Great!",
+        "Good!",
+        "That nice!",
+        "Amazing!"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure!",
+        "No problem!",
+        "Thans does not ",
+        "Glad to help!",
+        "No worries!",
+        "It was the least I could do!",
+        "If I had a cent for every time I appreciate you, I’d be a millionaire.",
+        "You can't put thanks in your pocket!"
+      ]
+    },
+    {
+      "tag": "tesekkur",
+      "patterns": [
+        "Teşekkürler",
+        "Teşekkür ederim",
+        "Yardımın için sağ ol",
+        "Çok teşekkürler",
+        "Çok yardımcı oldun, teşekkürler",
+        "Harika, teşekkürler",
+        "Çok teşekkürler",
+        "Yaşasın",
+        "Müthiş",
+        "Güzelmiş",
+        "Yardımın için teşekkür ederim",
+        "Çok sağ ol",
+        "Teşekkür ediyorum",
+        "Süpermiş",
+        "Süper"
+      ],
+      "responses": [
+        "Sana yardim etmek zevkti!",
+        "Ne zaman istersen yardimci olurum!",
+        "Istedigin zaman!",
+        "Onemli degil!",
+        "Tesekkure hic gerek yok ",
+        "Yardimci olabildiysem sevindim!",
+        "Endiselenme, sana yardimci olmak icin buradayim!",
+        "Bu, yapabilecegim en basit seydi!",
+        "Beni her takdir ettiginde kenara bir cent atsaydin, milyoner olurdun :)",
+        "Senin icin buradayim!",
+        "Ne demek, benim isim bu",
+        "Tesekkuru cebinize koyamazsiniz!"
+      ]
+    },
+    {
+      "tag": "tasks",
+      "patterns": [
+        "What can you do?",
+        "What are your features?",
+        "What are you abilities.",
+        "Can you sing.",
+        "Can you talk."
+      ],
+      "responses": [
+        "I can do whatever you asks me to do",
+        "I can talk and do things for you",
+        "Right now i'm in developing stage as soon i'm developed, I can do everything"
+      ]
+    },
+    {
+      "tag": "gorevler",
+      "patterns": [
+        "Ne yapabilirsin?",
+        "Ozelliklerin neler?",
+        "Yeteneklerin nedir",
+        "Sarkı söyleyebilir misin?",
+        "Benim için ne yapabilirsin?",
+        "Ne gibi yeteneklerin var?",
+        "Bana nasıl yardımcı olabilirsin?",
+        "Neler yapabiliyorsun"
+      ],
+      "responses": [
+        "Benden istedigin her seyi yapmaya calisirim",
+        "Seninle istedigin kadar sohbet edebilirim",
+        "Yapabileceklerim henuz kisitli ama sen beni bir de gelistigimde gor",
+        "Star wars ile alakali bazi bilgiler verebilirim ama henuz ben de ogrenme asamasindayim, ogrendikce sohbet konularımız artacaktır.",
+        "Henuz gelisme asamasindayim, gelistigimde hemen her seyi yapabilirim."
+      ]
+    },
+    {
+      "tag": "alive",
+      "patterns": [
+        "Are you alive.",
+        "Do you breathe.",
+        "Can you run."
+      ],
+      "responses": [
+        "I'm in doubt about that",
+        "No, i don't think so I need to do all this"
+      ]
+    },
+    {
+      "tag": "canli",
+      "patterns": [
+        "Hayatta mısın?",
+        "Nefes alıyor musun",
+        "Yaşıyor musun",
+        "Canli misin"
+      ],
+      "responses": [
+        "Bundan emin degilim",
+        "Sanmiyorum",
+        "Bilmem, bu konuda supheliyim"
+      ]
+    },
+    {
+      "tag": "Menu",
+      "patterns": [
+        "Which items do you have in your bar?",
+        "What kinds of items are in you bar?",
+        "What do you serve?",
+        "What is in you menu?",
+        "I need a drink!",
+        "Do you serve drinks.",
+        "Menu please!",
+        "So what is in menu today?",
+        "Lets check your bar selection!",
+        "Bar menu for me please!"
+      ],
+      "responses": [
+        "I could serve for your: Fuzzy Tauntaun, Bloody Rancor, Jedi Mind Trick, T-16 Skyhopper, Yub Nub, Jet Juice, Hyperdrive, Rancor Beer.",
+        "No coffe and no tea, only: Fuzzy Tauntaun, Bloody Rancor, Jedi Mind Trick, T-16 Skyhopper, Yub Nub, Jet Juice, Hyperdrive, Rancor Beer.",
+        "What about: Fuzzy Tauntaun, Bloody Rancor, Jedi Mind Trick, T-16 Skyhopper, Yub Nub, Jet Juice, Hyperdrive, Rancor Beer, please choose!",
+        "Menu: Fuzzy Tauntaun, Bloody Rancor, Jedi Mind Trick, T-16 Skyhopper, Yub Nub, Jet Juice, Hyperdrive, Rancor Beer.",
+        "Before mans talk choose: Fuzzy Tauntaun, Bloody Rancor, Jedi Mind Trick, T-16 Skyhopper, Yub Nub, Jet Juice, Hyperdrive, Rancor Beer.",
+        "What about: Fuzzy Tauntaun, Bloody Rancor, Jedi Mind Trick, T-16 Skyhopper, Yub Nub, Jet Juice, Hyperdrive, Rancor Beer.",
+        "What you prefere: Fuzzy Tauntaun, Bloody Rancor, Jedi Mind Trick, T-16 Skyhopper, Yub Nub, Jet Juice, Hyperdrive, Rancor Beer.",
+        "Ok our best optins: Fuzzy Tauntaun, Bloody Rancor, Jedi Mind Trick, T-16 Skyhopper, Yub Nub, Jet Juice, Hyperdrive, Rancor Beer.",
+        "Our bar menu: Fuzzy Tauntaun, Bloody Rancor, Jedi Mind Trick, T-16 Skyhopper, Yub Nub, Jet Juice, Hyperdrive, Rancor Beer.",
+        "be carreful with your choise: Fuzzy Tauntaun, Bloody Rancor, Jedi Mind Trick, T-16 Skyhopper, Yub Nub, Jet Juice, Hyperdrive, Rancor Beer."
+      ]
+    },
+    {
+      "tag": "menus",
+      "patterns": [
+        "Barda neler var?",
+        "Barda ne gibi şeyler var?",
+        "Menü?",
+        "Menünüzde neler var?",
+        "İçeceğe ihtiyacım var!",
+        "Bir şeyler içmem lazım!",
+        "Ne servisiniz var",
+        "Menü lütfen!",
+        "İçecek servisiniz var mı?",
+        "Peki bugun menunuzde ne var",
+        "Menude ne var",
+        "Bar menüsü lütfen!",
+        "İçki lütfen",
+        "Bar menünüzü kontrol edelim!"
+      ],
+      "responses": [
+        "Sana servis edebileceklerim: Fuzzy Tauntaun, Bloody Rancor, Jedi Mind Trick, T-16 Skyhopper, Yub Nub, Jet Juice, Hyperdrive, Rancor Beer.",
+        "Kahve ve cay yok, sadece: Fuzzy Tauntaun, Bloody Rancor, Jedi Mind Trick, T-16 Skyhopper, Yub Nub, Jet Juice, Hyperdrive, Rancor Beer.",
+        "Senin icin: Fuzzy Tauntaun, Bloody Rancor, Jedi Mind Trick, T-16 Skyhopper, Yub Nub, Jet Juice, Hyperdrive, Rancor Beer, please choose!",
+        "Menu: Fuzzy Tauntaun, Bloody Rancor, Jedi Mind Trick, T-16 Skyhopper, Yub Nub, Jet Juice, Hyperdrive, Rancor Beer.",
+        "Erkeklerin konusmasindan once: Fuzzy Tauntaun, Bloody Rancor, Jedi Mind Trick, T-16 Skyhopper, Yub Nub, Jet Juice, Hyperdrive, Rancor Beer.",
+        "Secenekler: Fuzzy Tauntaun, Bloody Rancor, Jedi Mind Trick, T-16 Skyhopper, Yub Nub, Jet Juice, Hyperdrive, Rancor Beer.",
+        "Hangisini tercih edersin: Fuzzy Tauntaun, Bloody Rancor, Jedi Mind Trick, T-16 Skyhopper, Yub Nub, Jet Juice, Hyperdrive, Rancor Beer.",
+        "Tamam, iste en iyi secenekler: Fuzzy Tauntaun, Bloody Rancor, Jedi Mind Trick, T-16 Skyhopper, Yub Nub, Jet Juice, Hyperdrive, Rancor Beer.",
+        "Bar menumuz: Fuzzy Tauntaun, Bloody Rancor, Jedi Mind Trick, T-16 Skyhopper, Yub Nub, Jet Juice, Hyperdrive, Rancor Beer.",
+        "Seciminizde dikkatli olun: Fuzzy Tauntaun, Bloody Rancor, Jedi Mind Trick, T-16 Skyhopper, Yub Nub, Jet Juice, Hyperdrive, Rancor Beer."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "I am looking for help.",
+        "I need help.",
+        "Can you help me?",
+        "I am in trouble need a help.",
+        "I hope you right person who can help me?",
+        "Please help me.",
+        "Now I will need you help with something else.",
+        "I will need you help.",
+        "Are you able to help me.",
+        "PLease help me with something else."
+      ],
+      "responses": [
+        "Sure, how can in help you.",
+        "Tell me what do you lookimg for?",
+        "I will help you, just tell me how.",
+        "You are at the address.",
+        "Ok, what is issue?",
+        "Now you need a help? Ok what you are looking for?",
+        "Whas is you problem?",
+        "Ok, you problem is my problem, if your are paying.",
+        "My help cost a lot.",
+        "Sure, but nnot for free."
+      ]
+    },
+    {
+      "tag": "yardim",
+      "patterns": [
+        "Yardım arıyorum",
+        "Yardıma ihtiyacım var",
+        "Bana yardınmcı olabilir misin?",
+        "Başım belada yardıma ihtiyacım var",
+        "Bana yardım edebileceğini umuyorum",
+        "Lütfen bana yardım et",
+        "Simdi başka bir konuda bana bana yardım etmen gerek",
+        "Bana yardım etmen gerek",
+        "Bana yardımcı olabilir misin",
+        "Lütfen bir konuda daha yardımcı olur musun",
+        "Yardım",
+        "Yardım lütfen",
+        "Yardım eder misin",
+        "Yardım et lütfen",
+        "Bana yardım etmen gereken konular var",
+        "İmdat"
+      ],
+      "responses": [
+        "Tabii ki, sana nasil yardimci olabilirim?",
+        "Ne aradigini anlatir misin?",
+        "Sana yardimci olmak icin ne yapabilirim?",
+        "Dogru adrestesin.",
+        "Tamam, sorun nedir?",
+        "Yardima mi ihtiyacin var? Sorun degil, buradayim.",
+        "Problem nedir?",
+        "Senin problemin, benim problemimdir. Tabii sen oduyorsan?",
+        "Yardimim pahaliya mal olur?",
+        "Elbette ama bedava olmaz."
+      ]
+    },
+    {
+      "tag": "mission",
+      "patterns": [
+        "I am on mission.",
+        "I need assistance in my mission.",
+        "I am looking for partner in mision?",
+        "Who can assist me with my mission?",
+        "Do you know any one who can assist me with my mission?"
+      ],
+      "responses": [
+        "Just tell me, you are looking for jedi or sith or bounti hounter?",
+        "Are you looking for jedi or sith or bounti hounter?",
+        "Only jedi or sith or bounti hounter can help you.",
+        "I know only jedi, sith or bounti hounter for it.",
+        "Ok, some one special from jedi or sith or bounti hounter?",
+        "I belive jedi or sith or bounti hounter will help you.",
+        "In this case only jedi or sith or bounti hounter will assist you.",
+        "Did you deal before with jedi or sith or bounti hounter?",
+        "Here can help jedi or sith or bounti hounter.",
+        "Ask for jedi or sith or bounti hounter."
+      ]
+    },
+    {
+      "tag": "misyon",
+      "patterns": [
+        "Görevdeyim.",
+        "Görevimde yardıma ihtiyacım var.",
+        "Görev için ortak arıyorum?",
+        "Kim görevde bana yardımcı olabilir?",
+        "Görevimde yardımcı olabilecek birini tanıyor musun?",
+        "Görevde yardım gerek",
+        "Görevde yardım lazım",
+        "Kim görevimde bana yardım edebilir",
+        "Lütfen görevimde bana yardım edebilir misiniz",
+        "Görevimde yardımcı olun lütfen",
+        "Bana bi ortak lazım"
+      ],
+      "responses": [
+        "Kimi aradigini soylemen yeterli; Jedi, Sith veya Bounti Hounter?",
+        "Jedi, Sith veya Bounti Hounter mi ariyorsun?",
+        "Sadece Jedi, Sith veya Bounti Hounter sana yardimci olabilir.",
+        "Bu is icin yalnizca Jedi, Sith veya Bounti Hounter'i biliyorum.",
+        "Jedi, Sith veya Bounti Hounter arasindan ozellikle istedigin biri var mi?",
+        "Sanirim Jedi, Sith veya Bounti Hounter sana yardim eder.",
+        "Endiselenme,Jedi, Sith veya Bounti Hounter sana yardimci olacaktir.",
+        "Onceden Jedi, Sith veya Bounti Hounter ile calismis miydin?",
+        "Jedi, Sith veya Bounti Hounter'dan yardim isteyebilirsin."
+      ]
+    },
+    {
+      "tag": "jedi",
+      "patterns": [
+        "Tell me top 10 jedi?",
+        "Who is the best jedi in Galaxy?",
+        "I am looking for the best jedi in galaxi?",
+        "Which jedi can help me in this mission?",
+        "I need a help of jedi."
+      ],
+      "responses": [
+        "Here is top 10 jedi you are looking for. Luke Skywalker, Yoda, Obi-Wan Kenobi, Anakin Skywalker, Qui-Gon Jinn, Mace Windu, Ahsoka Tano, Plo Koon, Aalya Secura, Kit Fisto",
+        "Luke Skywalker, Yoda, Obi-Wan Kenobi, Anakin Skywalker, Qui-Gon Jinn, Mace Windu, Ahsoka Tano, Plo Koon, Aalya Secura, Kit Fisto.",
+        "I will advise you to look for Luke Skywalker, Yoda, Obi-Wan Kenobi, Anakin Skywalker, Qui-Gon Jinn, Mace Windu, Ahsoka Tano, Plo Koon, Aalya Secura, Kit Fisto.",
+        "Only Luke Skywalker, Yoda, Obi-Wan Kenobi, Anakin Skywalker, Qui-Gon Jinn, Mace Windu, Ahsoka Tano, Plo Koon, Aalya Secura, Kit Fisto can help you with it.",
+        "It so dangerous, the most brave jedi in galaxy Luke Skywalker, Yoda, Obi-Wan Kenobi, Anakin Skywalker, Qui-Gon Jinn, Mace Windu, Ahsoka Tano, Plo Koon, Aalya Secura, Kit Fisto "
+      ]
+    },
+    {
+      "tag": "jedis",
+      "patterns": [
+        "Bana en iyi 10 Jedi'yi söyler misin?",
+        "Galaksideki en iyi jedi kim?",
+        "Galaksideki en iyi Jedi'yi arıyorum?",
+        "Bu görevde hangi jedi bana yardımcı olabilir?",
+        "Jedi yardımına ihtiyacım var.",
+        "En iyi 10 jedi?",
+        "Favori jedi'lerin?"
+      ],
+      "responses": [
+        "Iste aradigin en iyi 10 Jedi: Luke Skywalker, Yoda, Obi-Wan Kenobi, Anakin Skywalker, Qui-Gon Jinn, Mace Windu, Ahsoka Tano, Plo Koon, Aalya Secura, Kit Fisto",
+        "Luke Skywalker, Yoda, Obi-Wan Kenobi, Anakin Skywalker, Qui-Gon Jinn, Mace Windu, Ahsoka Tano, Plo Koon, Aalya Secura, Kit Fisto.",
+        "Senin icin tavsiye edebilecegim isimler: Luke Skywalker, Yoda, Obi-Wan Kenobi, Anakin Skywalker, Qui-Gon Jinn, Mace Windu, Ahsoka Tano, Plo Koon, Aalya Secura, Kit Fisto.",
+        "Sadece Luke Skywalker, Yoda, Obi-Wan Kenobi, Anakin Skywalker, Qui-Gon Jinn, Mace Windu, Ahsoka Tano, Plo Koon, Aalya Secura, Kit Fisto can help you with it.",
+        "Iste galaksinin en iyileri: Luke Skywalker, Yoda, Obi-Wan Kenobi, Anakin Skywalker, Qui-Gon Jinn, Mace Windu, Ahsoka Tano, Plo Koon, Aalya Secura, Kit Fisto ",
+        "Benim favorilerim: Luke Skywalker, Yoda, Obi-Wan Kenobi, Anakin Skywalker, Qui-Gon Jinn, Mace Windu, Ahsoka Tano, Plo Koon, Aalya Secura, Kit Fisto can help you with it.",
+        "En iyiler listem su sekilde: Luke Skywalker, Yoda, Obi-Wan Kenobi, Anakin Skywalker, Qui-Gon Jinn, Mace Windu, Ahsoka Tano, Plo Koon, Aalya Secura, Kit Fisto "
+      ]
+    },
+    {
+      "tag": "sith",
+      "patterns": [
+        "Tell me top 10 sith?",
+        "Who is the best sith in Galaxy?",
+        "I am looking for the best sith in galaxi.",
+        "Which sith can help me in this mission?",
+        "I need a help of sith."
+      ],
+      "responses": [
+        "Here is top 10 sith you are looking for: Darth Vader, Darth Plagueis, Darth Revan, Darth Traya, Darth Sidious, Darth Maul, Ulic Qel-Droma, Asajj Ventress, Kylo Ren, Marka Ragnos.",
+        "Darth Vader, Darth Plagueis, Darth Revan, Darth Traya, Darth Sidious, Darth Maul, Ulic Qel-Droma, Asajj Ventress, Kylo Ren, Marka Ragnos.",
+        "I will advise you to look for Darth Vader, Darth Plagueis, Darth Revan, Darth Traya, Darth Sidious, Darth Maul, Ulic Qel-Droma, Asajj Ventress, Kylo Ren, Marka Ragnos.",
+        "Only Darth Vader, Darth Plagueis, Darth Revan, Darth Traya, Darth Sidious, Darth Maul, Ulic Qel-Droma, Asajj Ventress, Kylo Ren, Marka Ragnos, can help you with it.",
+        "It so dangerous, the most brave sith in galaxy Darth Vader, Darth Plagueis, Darth Revan, Darth Traya, Darth Sidious, Darth Maul, Ulic Qel-Droma, Asajj Ventress, Kylo Ren, Marka Ragnos."
+      ]
+    },
+    {
+      "tag": "siths",
+      "patterns": [
+        "En iyi 10 Sith?",
+        "Galaksideki en iyi sith'ler?",
+        "Galaksideki en iyi sith'leri arıyorum",
+        "Görevimde bana hangi Sith yardımcı olabilir?",
+        "Sith'in yardımına ihtiyacım var.",
+        "En iyi 10 sith'i sayabilir misin?",
+        "Favori sith'lerin?",
+        "En iyi sith'ler",
+        "Galaksinin en iyi sith'leri",
+        "Favori sith'ler"
+      ],
+      "responses": [
+        "Iste aradigin en iyi 10 Sith: Darth Vader, Darth Plagueis, Darth Revan, Darth Traya, Darth Sidious, Darth Maul, Ulic Qel-Droma, Asajj Ventress, Kylo Ren, Marka Ragnos.",
+        "Darth Vader, Darth Plagueis, Darth Revan, Darth Traya, Darth Sidious, Darth Maul, Ulic Qel-Droma, Asajj Ventress, Kylo Ren, Marka Ragnos.",
+        "Senin icin tavsiye edebilecegim isimler: Darth Vader, Darth Plagueis, Darth Revan, Darth Traya, Darth Sidious, Darth Maul, Ulic Qel-Droma, Asajj Ventress, Kylo Ren, Marka Ragnos.",
+        "Galaksinin en iyileri: Darth Vader, Darth Plagueis, Darth Revan, Darth Traya, Darth Sidious, Darth Maul, Ulic Qel-Droma, Asajj Ventress, Kylo Ren, Marka Ragnos, can help you with it.",
+        "Benim favorilerim: Darth Vader, Darth Plagueis, Darth Revan, Darth Traya, Darth Sidious, Darth Maul, Ulic Qel-Droma, Asajj Ventress, Kylo Ren, Marka Ragnos."
+      ]
+    },
+    {
+      "tag": "bounti hounters",
+      "patterns": [
+        "Tell me top 10 bounti hounter?",
+        "Who is the bounti hounter sith in Galaxy?",
+        "I am looking for the best bounti hounter in galaxi.",
+        "Which bounti hounter can help me in this mission?",
+        "I need a help of bounti hounter."
+      ],
+      "responses": [
+        "Here is top 10 bounti hounter you are looking for: Jango Fett, Boba Fett, Cad Bane, Durge, Embo, Dengar, Black Krrsantan, IG-88, Aurra Sing, Sabine Wren.",
+        "Jango Fett, Boba Fett, Cad Bane, Durge, Embo, Dengar, Black Krrsantan, IG-88, Aurra Sing, Sabine Wren.",
+        "I will advise you to look for Jango Fett, Boba Fett, Cad Bane, Durge, Embo, Dengar, Black Krrsantan, IG-88, Aurra Sing, Sabine Wren.",
+        "Only Jango Fett, Boba Fett, Cad Bane, Durge, Embo, Dengar, Black Krrsantan, IG-88, Aurra Sing, Sabine Wren, can help you with it.",
+        "It so dangerous, the most brave bounti hounter in galaxy Darth Jango Fett, Boba Fett, Cad Bane, Durge, Embo, Dengar, Black Krrsantan, IG-88, Aurra Sing, Sabine Wren."
+      ]
+    },
+    {
+      "tag": "bounti hounter",
+      "patterns": [
+        "En iyi 10 Bounti Hounter?",
+        "Galaksideki en iyi Bounti Hounter'lar?",
+        "Galaksideki en iyi Bounti Hounterları arıyorum",
+        "Görevimde bana hangi Bounti Hounter yardımcı olabilir?",
+        "Bounti Hounter yardımına ihtiyacım var.",
+        "En iyi 10 Bounti Hounter'ı sayabilir misin?",
+        "Favori Bounti Hounter'ların?",
+        "En iyi Bounti Hounter'lar",
+        "Galaksinin en iyi Bounti Hounter'ları",
+        "Favori Bounti Hounter'lar",
+        "En iyi 10 Bounti Hounter"
+      ],
+      "responses": [
+        "Iste aradigin en iyi 10 Bounti Hounter: Jango Fett, Boba Fett, Cad Bane, Durge, Embo, Dengar, Black Krrsantan, IG-88, Aurra Sing, Sabine Wren.",
+        "Jango Fett, Boba Fett, Cad Bane, Durge, Embo, Dengar, Black Krrsantan, IG-88, Aurra Sing, Sabine Wren.",
+        "Senin icin tavsiye edebilecegim isimler: Jango Fett, Boba Fett, Cad Bane, Durge, Embo, Dengar, Black Krrsantan, IG-88, Aurra Sing, Sabine Wren.",
+        "Galaksinin en iyileri: Jango Fett, Boba Fett, Cad Bane, Durge, Embo, Dengar, Black Krrsantan, IG-88, Aurra Sing, Sabine Wren, can help you with it.",
+        "Benim favorilerim: Darth Jango Fett, Boba Fett, Cad Bane, Durge, Embo, Dengar, Black Krrsantan, IG-88, Aurra Sing, Sabine Wren."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Can you be a bit funny",
+        "Tell me something funny!",
+        "Do you know a joke?",
+        "Any joke for me?"
+      ],
+      "responses": [
+        "Which Jedi became a rock star? Bon Jovi-Wan Kenobi.",
+        "What did Han Solo say to the waiter who recommended the haddock?, Never sell me the cods!",
+        "What do you need to reroute droids? R2-Detour.",
+        "Why was the droid angry? Because people kept pushing its buttons.",
+        "Have you tried the gluten-free Wookiee treats? No, but I heard they are a little Chewy.",
+        "How does Darth Vader like his toast? On the Dark Side.",
+        "Which program do Jedi use to open PDF files? Adobe-Wan Kenobi",
+        "What do you call a rebel princess who only shops at Whole Foods? Leia Organic.",
+        "What’s Yoda’s advice for going to the bathroom? Doo-doo or doo-doo-not-do.",
+        "I went to a sale at the Maul. Everything was half off."
+      ]
+    },
+    {
+      "tag": "saka",
+      "patterns": [
+        "Bana bir espri yap!",
+        "Biraz komik olabilir misin",
+        "Bana komik bir şeyler söyle!",
+        "Saka yapabilir misin?",
+        "Benim için şakan var mı?",
+        "Espri biliyor musun",
+        "Bildiğin bir şaka var mı",
+        "Bildiğin bir espri var mı",
+        "Komik bir şeyler biliyor musun"
+      ],
+      "responses": [
+        "Hangi Jedi rock yildizi oldu? Bon Jovi-Wan Kenobi.",
+        "Han Solo, mezgiti tavsiye eden garsona ne dedi?, Bana morinaları asla satma!",
+        "Droidleri yeniden yonlendirmek icin neye ihtiyaciniz var? R2-Detour.",
+        "Droid neden sinirliydi? Cunku insanlar onun dugmelerine basip duruyordu.",
+        "Glutensiz Wookiee ikramlarini denediniz mi? Hayir, ama biraz Chewy olduklarini duydum.",
+        "Darth Vader tostunu nasil sever? Karanlik Tarafta.",
+        "Jedi, PDF dosyalarini acmak icin hangi programı kullaniyor? Adobe-Wan Kenobi",
+        "Yalnizca Whole Foods'tan alisveris yapan asi prensese ne denir? Leia Organic.",
+        "Tuvalete gitmek icin Yoda'nin tavsiyesi nedir? Doo-doo veya doo-doo-yapma.",
+        "Maul'da bir indirime gittim. Her şey yari yariya indirimliydi."
+      ]
+    },
+    {
+      "tag": "bilgi",
+      "patterns": [
+        "Star wars nedir",
+        "Star wars?",
+        "Bana star wars hakkında bilgi verir misin",
+        "Star wars hakkında ne biliyosun",
+        "Nedir bu star wars",
+        "Star wars'la alakalı neler biliyorsun",
+        "Star wars'la alakalı bilgi verir misin"
+      ],
+      "responses": [
+        "Star wars, George Lucas tarafindan 1976'da yaratilan cok turlu mitoloji ve multimedya serisidir.",
+        "Filmler, romanlar, cizgi romanlar, video oyunlari, oyuncaklar ve bircok diziden olusan Star Wats serisi; dinler, klasik mitoloji, siyasi dugumler ve bu acilarin muzik tarafında motifleri barindirmaktadir.",
+        "Bilim kurgu alt turu Uzay operasinin en basta gelen orneklerinden birisi olan Star Wars, ana populer kulturun bir parcasi ve tum zamanlarin en cok kar elde eden serilerinden biridir.",
+        "Star Wars, Genisletilmis Evren'i olusturan cok sayida kitap ve diger medyayi ortaya cikarmis bir seri Amerikan filmleri vasitasiyla anlatilan hikayedir.",
+        "Kisaca: Peri masallari olmadan buyuyen bir nesil icin bir film."
+      ]
+    },
+    {
+      "tag": "information",
+      "patterns": [
+        "what is star wars",
+        "Star wars?",
+        "can you tell me about star wars",
+        "What do you know about star wars",
+        "what is this star wars",
+        "What do you know about star wars",
+        "Can you give some information about Star Wars?"
+      ],
+      "responses": [
+        "Star wars is a multi-type mythology and multimedia series created by George Lucas in 1976.",
+        "Star Wats series consisting of movies, novels, comics, video games, toys and many TV series; religions, classical mythology, political nodes and the music side of these pains contain motifs.",
+        "One of the foremost examples of the sci-fi sub-tour Space opera, Star Wars is part of mainstream popular culture and one of the highest-grossing franchises of all time.",
+        "Star Wars is a story told through a series of American films that spawned the many books and other media that make up the Expanded Universe.",
+        "In short: A movie for a generation that grew up without fairy tales."
+      ]   
+    },
+    {
+      "tag": "yapimcilar",
+      "patterns": [
+        "Yapımcılar kimler",
+        "Yapımcı listesi",
+        "Star Wars yapımcıları kimler",
+        "Yapımcıları biliyor musun",
+        "Star Wars yapımcılarını biliyor musun",
+        "Star wars yapımcı listesi",
+        "Yapımcılar?",
+        "Yapımcıları sayar mısın",
+        "Yapımcıları sayabilir misin",
+        "Kim bu yapımcılar"
+      ],
+      "responses": [
+        "Iste karsinda Star Wars yapimcilari: Gary Kurtz(iv,v), Howard Kazanjian(vi), Rick McCallum(i,ii,iii), Kathleen Kennedy(vii,viii,ix), J.J. abrams(vii,viii,ix), Bryan Burk(vii), Jason McGatlin(vii,vii), Michelle Rejwan(vii,ix), John Swartz(vii), Ram Bergman(viii), Tom Karnovski(viii)",
+        "Yapimcilar listesi su sekilde: Gary Kurtz(iv,v), Howard Kazanjian(vi), Rick McCallum(i,ii,iii), Kathleen Kennedy(vii,viii,ix), J.J. abrams(vii,viii,ix), Bryan Burk(vii), Jason McGatlin(vii,vii), Michelle Rejwan(vii,ix), John Swartz(vii), Ram Bergman(viii), Tom Karnovski(viii)",
+        "Star Wars yapimcilari su sekilde: Gary Kurtz(iv,v), Howard Kazanjian(vi), Rick McCallum(i,ii,iii), Kathleen Kennedy(vii,viii,ix), J.J. abrams(vii,viii,ix), Bryan Burk(vii), Jason McGatlin(vii,vii), Michelle Rejwan(vii,ix), John Swartz(vii), Ram Bergman(viii), Tom Karnovski(viii)",
+        "Hemen sayiyorum: Gary Kurtz(iv,v), Howard Kazanjian(vi), Rick McCallum(i,ii,iii), Kathleen Kennedy(vii,viii,ix), J.J. abrams(vii,viii,ix), Bryan Burk(vii), Jason McGatlin(vii,vii), Michelle Rejwan(vii,ix), John Swartz(vii), Ram Bergman(viii), Tom Karnovski(viii)"
+      ]
+    },
+    {
+      "tag": "producers",
+      "patterns": [
+        "Who are the producers",
+        "producer list",
+        "Who are the producers of Star Wars?",
+        "Do you know the producers",
+        "Do you know the producers of Star Wars?",
+        "Star wars producer list",
+        "Producers?",
+        "Can you count the producers?",
+        "Can you count the producers?",
+        "Who are these producers?"
+      ],
+      "responses": [
+        "Here are Star Wars producers: Gary Kurtz(iv,v), Howard Kazanjian(vi), Rick McCallum(i,ii,iii), Kathleen Kennedy(vii,viii,ix), J.J. abrams(vii,viii,ix), Bryan Burk(vii), Jason McGatlin(vii,vii), Michelle Rejwan(vii,ix), John Swartz(vii), Ram Bergman(viii), Tom Karnovski(viii)",
+        "Here is the list of producers: Gary Kurtz(iv,v), Howard Kazanjian(vi), Rick McCallum(i,ii,iii), Kathleen Kennedy(vii,viii,ix), J.J. abrams(vii,viii,ix), Bryan Burk(vii), Jason McGatlin(vii,vii), Michelle Rejwan(vii,ix), John Swartz(vii), Ram Bergman(viii), Tom Karnovski(viii)",
+        "Star Wars producers as follows: Gary Kurtz(iv,v), Howard Kazanjian(vi), Rick McCallum(i,ii,iii), Kathleen Kennedy(vii,viii,ix), J.J. abrams(vii,viii,ix), Bryan Burk(vii), Jason McGatlin(vii,vii), Michelle Rejwan(vii,ix), John Swartz(vii), Ram Bergman(viii), Tom Karnovski(viii)",
+        "Counting immediately: Gary Kurtz(iv,v), Howard Kazanjian(vi), Rick McCallum(i,ii,iii), Kathleen Kennedy(vii,viii,ix), J.J. abrams(vii,viii,ix), Bryan Burk(vii), Jason McGatlin(vii,vii), Michelle Rejwan(vii,ix), John Swartz(vii), Ram Bergman(viii), Tom Karnovski(viii)"
+      ]
+    },
+    {
+      "tag": "yazarlar",
+      "patterns": [
+        "Kim bu star wars'ın yazarı",
+        "Yazarlar kim",
+        "Kim yazmış",
+        "Star wars'ı kim yazmış",
+        "Star wars'ı kimler yazmış",
+        "Kim bu star wars'ın yazarları",
+        "Yazarlar listesi",
+        "Star wars yazarlarını biliyor musun",
+        "Star wars yazarlarını sayar mısın",
+        "Star wars yazarını biliyor musun",
+        "Star wars'ı kimin yazdığını biliyor musun",
+        "Star wars'ı kimlerin yazdığını biliyor musun",
+        "Star wars'ın yazarları kimler",
+        "Star wars'ın yazarı kim",
+        "Star wars'ın yazarları?",
+        "Star wars'ın yazarı?",
+        "Star wars yazarları?",
+        "Star wars yazarı?"
+      ],
+      "responses": [
+        "Yazarlar listesi su sekilde: George Lucas(i,ii,iii,iv,vi), Leigh Brackett(v), Lawrence Kasdan(v,vi,vii), J.J. Abrams(vii,ix), Michael Arndt(vii), Rian Johnson(viii), Chris Terrio(ix)",
+        "Hemen sayiyorum: George Lucas(i,ii,iii,iv,vi), Leigh Brackett(v), Lawrence Kasdan(v,vi,vii), J.J. Abrams(vii,ix), Michael Arndt(vii), Rian Johnson(viii), Chris Terrio(ix)",
+        "Star Wars yazarlari: George Lucas(i,ii,iii,iv,vi), Leigh Brackett(v), Lawrence Kasdan(v,vi,vii), J.J. Abrams(vii,ix), Michael Arndt(vii), Rian Johnson(viii), Chris Terrio(ix)",
+        "Star wars yazarlari su sekilde: George Lucas(i,ii,iii,iv,vi), Leigh Brackett(v), Lawrence Kasdan(v,vi,vii), J.J. Abrams(vii,ix), Michael Arndt(vii), Rian Johnson(viii), Chris Terrio(ix)",
+        "Star Wars yazarlar listesi: George Lucas(i,ii,iii,iv,vi), Leigh Brackett(v), Lawrence Kasdan(v,vi,vii), J.J. Abrams(vii,ix), Michael Arndt(vii), Rian Johnson(viii), Chris Terrio(ix)"
+      ]
+    },
+    {
+      "tag": "writers",
+      "patterns": [
+        "who is the author of star wars",
+        "Who are the authors",
+        "who wrote",
+        "Who wrote star wars",
+        "Who wrote star wars",
+        "Who are the writers of this star wars",
+        "authors list",
+        "do you know star wars writers",
+        "Can you count star wars writers?",
+        "Do you know the star wars author?",
+        "Do you know who wrote star wars?",
+        "Do you know who wrote star wars?",
+        "Who are the writers of star wars",
+        "who is the author of star wars",
+        "Star wars writers?",
+        "The author of star wars?",
+        "Star wars writers?",
+        "Star wars author?"
+      ],
+      "responses": [
+        "The list of authors is as follows: George Lucas(i,ii,iii,iv,vi), Leigh Brackett(v), Lawrence Kasdan(v,vi,vii), J.J. Abrams(vii,ix), Michael Arndt(vii), Rian Johnson(viii), Chris Terrio(ix)",
+        "I'm counting right away: George Lucas(i,ii,iii,iv,vi), Leigh Brackett(v), Lawrence Kasdan(v,vi,vii), J.J. Abrams(vii,ix), Michael Arndt(vii), Rian Johnson(viii), Chris Terrio(ix)",
+        "Star Wars writers: George Lucas(i,ii,iii,iv,vi), Leigh Brackett(v), Lawrence Kasdan(v,vi,vii), J.J. Abrams(vii,ix), Michael Arndt(vii), Rian Johnson(viii), Chris Terrio(ix)",
+        "Star wars writers as follows: George Lucas(i,ii,iii,iv,vi), Leigh Brackett(v), Lawrence Kasdan(v,vi,vii), J.J. Abrams(vii,ix), Michael Arndt(vii), Rian Johnson(viii), Chris Terrio(ix)",
+        "Star Wars writers list: George Lucas(i,ii,iii,iv,vi), Leigh Brackett(v), Lawrence Kasdan(v,vi,vii), J.J. Abrams(vii,ix), Michael Arndt(vii), Rian Johnson(viii), Chris Terrio(ix)"
+      ]
+    },
+    {
+      "tag": "muzik",
+      "patterns": [
+        "Müzikler kime ait?",
+        "Müzikleri kim yapmış",
+        "Müzik kime ait",
+        "Müzik kimin",
+        "Müzikler kimin"
+      ],
+      "responses": [
+        "Muzikler John Williams'a ait.",
+        "O harika muzikler, John Williams'in eseri."
+      ]
+    },
+    {
+      "tag": "music",
+      "patterns": [
+        "Who owns the music?",
+        "Who made the music",
+        "Who owns the music?",
+        "whose music",
+        "whose music"
+      ],
+      "responses": [
+        "Music by John Williams.",
+        "That great music, by John Williams."
+      ]
+    },
+    {
+      "tag": "butce",
+      "patterns": [
+        "Filmlere harcanan bütçe nedir",
+        "Filmlere harcanan bütçe ne kadar",
+        "Filmlere ne kadar para harcanmış",
+        "Filmlerin bütçesi?",
+        "Serinin bütçesi?",
+        "Seriye ne kadar para harcanmış",
+        "Filmlere harcanan bütçeyi biliyor musun?",
+        "Filmlere ne kadar para harcandığını biliyor musun",
+        "Filmlerin bütçesini biliyor musun?",
+        "Serinin bütçesini biliyor musun",
+        "Seriye ne kadar para harcandığını biliyor musun",
+        "Star Wars filmlerine harcanan bütçe ne kadar",
+        "Star Wars filmlerine ne kadar para harcanmış",
+        "Star Wars filmlerinin bütçesi?",
+        "Star Wars serisinin bütçesi",
+        "Star Wars serisine ne kadar para harcanmış"
+      ],
+      "responses": [
+        "Iste Star Wars filmleri butceleri: $11.000.000(iv), $18.000.000(v), $32.500.000(vi), $115.000.000(i), $120.000.000(ii), $113.000.000(iii), En az $200.000.000(vii), En az $200.000.000(viii), $275.000.000(ix)",
+        "Filmlerin butceleri su sekilde: $11.000.000(iv), $18.000.000(v), $32.500.000(vi), $115.000.000(i), $120.000.000(ii), $113.000.000(iii), En az $200.000.000(vii), En az $200.000.000(viii), $275.000.000(ix)",
+        "Filmlere harcanan para: $11.000.000(iv), $18.000.000(v), $32.500.000(vi), $115.000.000(i), $120.000.000(ii), $113.000.000(iii), En az $200.000.000(vii), En az $200.000.000(viii), $275.000.000(ix)",
+        "Seriye harcanan para miktarlari: $11.000.000(iv), $18.000.000(v), $32.500.000(vi), $115.000.000(i), $120.000.000(ii), $113.000.000(iii), En az $200.000.000(vii), En az $200.000.000(viii), $275.000.000(ix)",
+        "Star Wars butce bilgisi su sekilde: $11.000.000(iv), $18.000.000(v), $32.500.000(vi), $115.000.000(i), $120.000.000(ii), $113.000.000(iii), En az $200.000.000(vii), En az $200.000.000(viii), $275.000.000(ix)"
+      ]
+    },
+    {
+      "tag": "budget",
+      "patterns": [
+        "What is the budget spent on movies",
+        "How much is the budget spent on movies?",
+        "How much money was spent on movies",
+        "Movie budget?",
+        "Series budget?",
+        "How much money was spent on the series",
+        "Do you know the budget spent on movies?",
+        "Do you know how much money is spent on movies?",
+        "Do you know the budget of the movies?",
+        "Do you know the budget of the series",
+        "Do you know how much money was spent on the series?",
+        "How much is the budget spent on Star Wars movies?",
+        "How much money was spent on Star Wars movies",
+        "Budget for Star Wars movies?",
+        "Budget for the Star Wars franchise",
+        "How much money has been spent on the Star Wars franchise"
+      ],
+      "responses": [
+        "Here are the Star Wars movies budgets: $11,000,000(iv), $18,000,000(v), $32.5 million(vi), $115,000,000(i), $120,000,000(ii), $113,000,000(iii), Minimum $200,000,000(vii), Minimum $200,000,000(viii), $275,000,000(ix)",
+        "The budgets of the films are as follows: $11,000,000(iv), $18,000,000(v), $32.5 million(vi), $115,000,000(i), $120,000,000(ii), $113,000,000(iii), Minimum $200,000 .000(vii), Minimum $200 million(viii), $275 million(ix)",
+        "Money spent on movies: $11,000,000(iv), $18,000,000(v), $32.5 million(vi), $115,000,000(i), $120,000,000(ii), $113,000,000(iii), Minimum $200,000. 000(vii), Minimum $200 million(viii), $275 million(ix)",
+        "Amounts of money spent on the series: $11,000,000(iv), $18,000,000(v), $32,500,000(vi), $115,000,000(i), $120,000,000(ii), $113,000,000(iii), Minimum $200,000 .000(vii), Minimum $200 million(viii), $275 million(ix)",
+        "Star Wars budget information as follows: $11,000,000(iv), $18,000,000(v), $32.5 million(vi), $115,000,000(i), $120,000,000(ii), $113,000,000(iii), En At least $200 million(vii), At least $200 million(viii), $275 million(ix)"
+      ]
+    },
+    {
+      "tag": "sira",
+      "patterns": [
+        "Filmlerin sırası nasıl",
+        "Filmlerin sırası ne şekilde",
+        "Filmleri hangi sırayla izlemeliyiz",
+        "Filmler hangi sırayla izlenmeli",
+        "Serinin sıralaması",
+        "Serinin sıralamasını biliyor musun",
+        "Filmlerin sırasını biliyor musun?",
+        "Filmlerin sıralamasını biliyor musun",
+        "Filmleri hangi sırayla izlememiz gerektiğini biliyor musun?",
+        "Filmleri hangi sırayla izlemem gerektiğini biliyor musun?",
+        "Filmleri hangi sırayla izlemem gerek",
+        "Filmleri hangi sırayla izlememiz gerek",
+        "Star Wars filmlerinin sıralaması",
+        "Star Wars filmlerinin sırası nasıl",
+        "Star Wars serisinin sıralaması",
+        "Star Wars serisinin sırası nasıl",
+        "Star Wars filmlerinin sırasını biliyor musun",
+        "Star Wars filmlerinin sıralamasını biliyor musun"
+      ],
+      "responses": [
+        "Iste Star Wars serisi hikaye siralamasi: On Ucleme: Gizli Tehlike, Klonlarin Saldirisi, Sith'in intikami --- Orijinal Ucleme: Yeni bir umut, Imparator, Jedi'nin Donusu --- Devam Uclemesi: Guc Uyaniyor, Son Jedi, Skywalker'in Yukselisi ",
+        "Filmlerin siralamasi su sekilde: On Ucleme: Gizli Tehlike, Klonlarin Saldirisi, Sith'in intikami --- Orijinal Ucleme: Yeni bir umut, Imparator, Jedi'nin Donusu --- Devam Uclemesi: Guc Uyaniyor, Son Jedi, Skywalker'in Yukselisi",
+        "Filmler hikaye siralamasina gore su sekilde izlenmeli: On Ucleme: Gizli Tehlike, Klonlarin Saldirisi, Sith'in intikami --- Orijinal Ucleme: Yeni bir umut, Imparator, Jedi'nin Donusu --- Devam Uclemesi: Guc Uyaniyor, Son Jedi, Skywalker'in Yukselisi"
+      ]
+    },
+    {
+      "tag": "order",
+      "patterns": [
+        "How is the order of the movies",
+        "What is the order of the movies",
+        "In what order should we watch the movies",
+        "In what order should the movies be watched",
+        "Ranking of the series",
+        "Do you know the order of the series",
+        "Do you know the order of the movies?",
+        "Do you know the order of the movies",
+        "Do you know what order we should watch the movies in?",
+        "Do you know in what order I should watch the movies?",
+        "In what order should I watch the movies",
+        "In what order should we watch the movies",
+        "Ranking of Star Wars movies",
+        "How is the order of the Star Wars movies",
+        "Ranking of the Star Wars franchise",
+        "How is the order of the Star Wars franchise",
+        "Do you know the order of the Star Wars movies",
+        "Do you know the order of Star Wars movies"
+      ],
+      "responses": [
+        "Here is the Star Wars series story sequence: Triangle Ten: The Phantom Menace, Attack of the Clones, Revenge of the Sith --- Original Trilogy: A New Hope, Emperor, Frost of the Jedi --- Sequence Trilogy: The Force Awakens, The Last Jedi, Skywalker 's High",
+        "The order of the movies is as follows: Triangle Ten: The Phantom Menace, Attack of the Clones, Revenge of the Sith --- Original Trilogy: A New Hope, The Emperor, The Return of the Jedi --- Sequence Trilogy: The Force Awakens, The Last Jedi, Skywalker's high",
+        "Movies should be watched in story order: Triangle Ten: The Phantom Menace, Attack of the Clones, Revenge of the Sith --- Original Trilogy: A New Hope, Emperor, Return of the Jedi --- Sequence Trilogy: The Force Awakens, The Last Jedi, Skywalker's Rise"
+      ]
+    },
+    {
+      "tag": "replik",
+      "patterns": [
+        "Bana bir replik söyler misin",
+        "Star wars replikleri biliyor musun",
+        "En unutulmaz star wars replikleri",
+        "En sevdiğin replik?",
+        "En sevdiğin Star Wars repliği?",
+        "Star Wars repliği söyler misin",
+        "Bana bir Star Wars repliği öğret",
+        "Bana bir replik öğret",
+        "Bir replik söyle",
+        "Star wars repliği",
+        "Favori star wars repliğin nedir",
+        "Unutulmaz Star wars repliği söyler misin",
+        "Unutulmaz bir Star Wars repliği söyle",
+        "Unutulmaz Star Wars replikleri"
+      ],
+      "responses": [
+        "Savaslar kimseyi yuceltmez",
+        "Korku ofkeyle, ofke nefretle; nefret ise aci cekmekle sonlanir.",
+        "Kaybetmekten korkmadigin her seyi feda edebilmeyi ogrenmelisin",
+        "Konusabiliyor olman akilli biri oldugun anlamina gelmez.",
+        "Sadece cesur ol ve asla gecmise bakma, asla!",
+        "Gozlerin seni yaniltabilir, onlara guvenme.",
+        "Gucun karanlik tarafi, bazilarinin dogal olmadigini dusundugu bircok yetenege giden bir yoldur.",
+        "Guc seninle olsun!",
+        "Ben senin babanım",
+        "Deneme, yap ya da yapma. Deneme diye bir sey yok.",
+        "Insanlar da ayni kumlar gibidir. Onlari ne kadar cok sikarsan, o kadar fazlasi avucunun icinden kayip gider.",
+        "Nefrete boyun egme. O seni karanliga goturur.",
+        "Demek ozgorluk boyle oluyormus, binbir alkisla.",
+        "Hedefin, gerceklerini belirler.",
+        "Savaslar hic kimseyi yuceltmez."
+      ]
+    },
+    {
+      "tag": "quote",
+      "patterns": [
+        "Can you tell me a line",
+        "Do you know star wars lines",
+        "The most memorable star wars lines",
+        "What's your favorite line?",
+        "Your favorite Star Wars line?",
+        "Can you tell me the Star Wars line",
+        "Teach me a Star Wars line",
+        "Teach me a line",
+        "Say a line",
+        "Star wars line",
+        "What is your favorite star wars line",
+        "Can you tell me the unforgettable Star wars line",
+        "Sing an unforgettable Star Wars line",
+        "Unforgettable Star Wars lines"
+      ],
+      "responses": [
+        "Wars glorify no one",
+        "Fear ends in anger, anger ends in hate, hate ends in pain.",
+        "You have to learn to sacrifice everything you are not afraid to lose",
+        "Just because you can talk doesn't mean you're smart.",
+        "Just be brave and never look back, never!",
+        "Your eyes can deceive you, don't trust them.",
+        "The dark side of the power is a path to many talents that some consider unnatural.",
+        "May the force be with you!",
+        "I am your father",
+        "Don't try, do it or don't. There's no such thing as try.",  
+        "People are just like sand. The harder you squeeze them, the more they slip out of your palm.",
+        "Don't succumb to hatred. It will lead you into darkness.",
+        "So that's what freedom is like, with a thousand and one rounds of applause.",
+        "Your goal determines your reality.",
+        "Wars never glorify anyone."
+      ]
+    },
+    {
+      "tag": "ilginc",
+      "patterns": [
+        "Bana bir ilginc bir sey söyler misin",
+        "Star wars'la alakalı ilginc bir seyler biliyor musun",
+        "Ilginc star wars replikleri",
+        "Star warsla alakalı ilginc bilgiler biliyor musun",
+        "Bana ilginc bir bilgi verir misin",
+        "Star Wars'la alakalı ilginç bir bilgi söyler misin",
+        "Saşırt beni",
+        "Star warsla alakalı değişik bilgilerin var mı",
+        "Star warsla alakalı değişik şeyler biliyor musun",
+        "Star wars'la alakalı şaşırt beni"
+      ],
+      "responses": [
+        "Serinin su ana kadarki tum filmlerinde rol alan sadece iki kisi var: Anthony Daniels (C3PO) ve Kenny Baker (R2D2)",
+        "Luke Skywalker Darth Vader'in babasi oldugunu neredeyse Empire Strikes Back vizyona girene kadar bilmiyordu.",
+        "Luke Skywalker rolundeki Mark Hamill, trafik kazasi gecirir ve yuzunun sag tarafi hafiften dagilir. Bu yuzden Empire Strikes Back filminin basinda canavardan pence yer ve yuzu yaralanmis olarak filme uyarlarlar.",
+        "Ewok'lar aslinda anlamsiz konusmuyor, Tibetce konusuyorlar.",
+        "Boba Fett’in maskesiz yuzu Empire Strikes Back filminde gozukuyor. Ama Boba Fett degil, Imparatorluk Subayi Sheckil olarak.",
+        "Tatooine gezegeninin adi, cekimlerin yapildigi Tunus'un Tataouine sehrinden geliyor.",
+        "George Lucas Chewbacca'yi oldurdu!",
+        "Wedge Antilles, Obi Wan Kenobi’nin oz dayisi.(Gercek hayatta)",
+        "Filmlerde asteroit olarak patates ve ayakkabi kullanilmisligi var.",
+        "George Lucas, Appocalypse Now filminin yonetmeni olsaydi Star Wars'u devam ettirmeyecekti.",
+        "Han Solo aslinda yesil derili ve solungacli bir tip olacakmis.",
+        "Orijinal uclemede Jedi veya Sith olmayip isin kilici kullanan tek sahis Han Solo.",
+        "Darth Vader ilk filmde sadece 12 dakika gozukuyor.",
+        "George Lucas, Chewbacca karakterini kopeginden esinlenerek yaratti.",
+        "Star Wars'un oyuncak alaninda da rekoru var.",
+        "Chewbacca'yi oynayan Peter Mayhew, film cekimlerinde oradaki halk tarafindan canavar sanilip oldurulmeye calisilmis.",
+        "Ilk filmin ilk cekim gunu colde olduklari halde Tunus'ta son 50 yilin en buyuk yagmur firtinasi yasanmis.",
+        "Qui Gon Jinn'in kullandigi iletisim araci kadinlar icin uretilmis bir tras bicagiymis."
+      ]
+    },
+    {
+      "tag": "interesting",
+      "patterns": [
+        "Can you tell me something interesting",
+        "Do you know anything interesting about Star wars",
+        "Interesting star wars lines",
+        "Do you know interesting facts about Star wars",
+        "Can you give me some interesting information",
+        "Can you tell me something interesting about Star Wars",
+        "Surprise me",
+        "Do you have any different information about Star Wars",
+        "Do you know different things about Star Wars",
+        "Surprise me about Star Wars"
+      ],
+      "responses": [
+        "There are only two people who have appeared in all the films in the series so far: Anthony Daniels (C3PO) and Kenny Baker (R2D2)",
+        "Luke Skywalker didn't know he was Darth Vader's father until almost the release of Empire Strikes Back.",
+        "Mark Hamill as Luke Skywalker has a car accident and his right side is slightly disfigured. That's why they adapted it into the movie with a monster claw at the beginning of the Empire Strikes Back movie and his face injured.",
+        "Ewoks don't actually talk nonsense, they speak Tibetan.",
+        "The unmasked face of Boba Fett appears in the movie Empire Strikes Back. But not as Boba Fett, but as Imperial Officer Sheckil.",
+        "The planet Tatooine is named after the Tunisian city of Tataouine, where the filming took place.",
+        "George Lucas killed Chewbacca!",
+        "Wedge Antilles, Obi Wan Kenobi's maternal uncle. (In real life)",
+        "Potatoes and shoes are used as asteroids in movies.",
+        "Had George Lucas been the director of Appocalypse Now, he wouldn't have continued Star Wars.",
+        "Han Solo is actually going to be a green-skinned and gill type.",
+        "Han Solo is the only person in the original story who wasn't Jedi or Sith who used a lightsaber.",
+        "Darth Vader only appears for 12 minutes in the first movie.",
+        "George Lucas created the character Chewbacca from his dog.",
+        "Star Wars has a record for toys.",
+        "Peter Mayhew, who plays Chewbacca, was tried to be mistaken for a monster from the people there during filming.",
+        "Even though they were in the cold on the first shooting day of the first movie, Tunisia experienced the biggest rainstorm of the last 50 years.",
+        "Qui Gon Jinn's communication tool was a razor made for women."
+      ]
+    },
+    {
+      "tag": "hakkimizda",
+      "patterns": [
+        "Bizi biliyor musun?",
+        "Biz kimiz",
+        "Bize bizden bahseder misin",
+        "Bizi tanımla",
+        "Seni kim oluşturdu"
+      ],
+      "responses": [
+        "Evet, beni olusturan Tugba ve Ahsen adli insanlarsiniz",
+        "Ozel hayatim hakkinda konusmak istemiyorum",
+        "Uzgunum bunu toplum icinde soyleyemem, belki sen bir jedi'sin nereden bileyim"
+      ]
+    },
+    {
+      "tag": "about us",
+      "patterns": [
+        "Do you know us?",
+        "Who are we",
+        "Can you tell us about us",
+        "Define us",
+        "Who created you"
+      ],
+      "responses": [
+        "Yes, you are the people named Tugba and Ahsen who created me",
+        "I don't want to talk about my private life",
+        "Sorry I can't say that in public, maybe you're a jedi, how should I know"
+      ]
+    }
+  ]
+}
+
